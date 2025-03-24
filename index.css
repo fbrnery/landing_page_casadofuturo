@@ -52,12 +52,12 @@ body {
 }
 
 .botao {
-    background-color: #FF6300;
+    background-color: #03071E;
     color: #FFFFFF;
     border-radius: 30px;
     border-width: thin;
     border-width: 0px;
-    font-family: Montserrat;
+    font-family: Open Sans,Helvetica,Verdana,Arial,sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-align: center;
@@ -66,8 +66,23 @@ body {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
+
+.botao_nav {
+    margin: 1rem;
+}
+
+
+.nav_link {
+    color: #d8d8d8;
+    font-family: Open Sans,Helvetica,Verdana,Arial,sans-serif;
+    text-decoration: none;
+    margin: 2rem;
+    padding-left: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 
 .navbar-toggler-icon {
     background-color: #FF6300;
@@ -261,7 +276,7 @@ body {
         }
     
     .botao__cadastro {
-        background-color: #FF6300;
+        background-color: #03071E;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -283,7 +298,7 @@ body {
 .py-5 {
     padding-top: 9rem !important;
     padding-bottom: 3rem !important;
-    background-color: #F5F5F5;
+    background-color: #F5F7FE;
 }
 
 /*Dimensões da banner home-page*/
@@ -303,7 +318,7 @@ body {
 
 @media (min-width: 1200px) {
     .botao__cadastro {
-        background-color: #FF6300;
+        background-color: #03071E;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -322,7 +337,7 @@ body {
 
 @media (min-width: 992px) {
     .botao__cadastro {
-        background-color: #FF6300;
+        background-color: #03071E;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -341,7 +356,7 @@ body {
 
 @media (min-width: 768px) {
     .botao__cadastro {
-        background-color: #FF6300;
+        background-color: #03071E;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -360,7 +375,7 @@ body {
 
 @media (min-width: 576px) {
     .botao__cadastro {
-        background-color: #FF6300;
+        background-color: #03071E;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -379,7 +394,7 @@ body {
 
 @media (min-width: 376px) {
     .botao__cadastro {
-        background-color: #FF6300;
+        background-color: #03071E;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
@@ -398,7 +413,7 @@ body {
 
 @media (max-width: 376px) {
     .botao__cadastro {
-        background-color: #FF6300;
+        background-color: #03071E;
         color: #FFFFFF;
         border-radius: 50px;
         border-width: thin;
