@@ -1,0 +1,688 @@
+body {
+    background-color: #FFFFFF;
+}
+
+/* Início - Header-Menu */
+
+.navbar {
+    background-color: #48A9CF;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    padding-left: 60px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    padding-right: 60px;
+    margin: 20px;
+}
+
+@media (min-width: 375px) {
+    .navbar-expand-sm .navbar-collapse {
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-collapse {
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-sm .navbar-collapse {
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+
+.botao {
+    background-color: #FF6300;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border-width: thin;
+    border-width: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: dashed;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #FF6300;
+}
+
+.navbar-toggler {
+    background-color: #FF6300;
+}
+
+/* Fim - Header-Menu */
+
+/*Início-Banner-home page*/
+
+@media (max-width: 768px) {
+    .col-md-12 {
+        margin-top: 7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        margin-top: 7rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-6 {
+        margin-top: 8rem;
+    }
+}
+
+.texto {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+@media (max-width: 375px) {
+    .display {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Montserrat;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .texto {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: Montserrat;
+    }
+}
+
+@media (min-width: 376px) {
+    .display {
+        font-size: 22px;
+        font-weight: 800;
+        font-family: Montserrat;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .texto {
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-family: Montserrat;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .display {
+        font-size: 25px;
+        font-weight: 700;
+        font-family: Montserrat;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: 1rem;
+        font-family: Montserrat;
+    }
+
+    .texto {
+        text-align: justify;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: Montserrat;
+    }
+}
+
+@media (min-width: 768px) {
+    .display {
+        font-size: 32px;
+        font-weight: 800;
+        font-family: Montserrat;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .texto {
+        text-align: justify;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: Montserrat;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .display {
+        font-size: 26px;
+        font-weight: 800;
+        font-family: Montserrat;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+    .texto {
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .d-block {
+        width: 125%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*
+    .col-lg-6 {
+        margin-top: 0rem;
+    }*/
+}
+
+@media (min-width: 1400px) {
+    .texto {
+        text-align: justify;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .d-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
+    }
+    .display {
+        font-size: 28px;
+        font-weight: 800;
+        font-family: Montserrat;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        text-align: center;
+        margin-left: 4rem;
+        }
+    
+    .botao__cadastro {
+        background-color: #FF6300;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+        }
+    }
+
+/*Dimensões da banner home-page*/
+
+.py-5 {
+    padding-top: 9rem !important;
+    padding-bottom: 3rem !important;
+    background-color: #F5F5F5;
+}
+
+/*Dimensões da banner home-page*/
+
+/*border-radius img do banner home-page */
+.mx-auto {
+    border-radius: 5px;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: flex;
+    justify-content: center;
+}
+/*ajuste botão__cadastro*/
+
+@media (min-width: 1200px) {
+    .botao__cadastro {
+        background-color: #FF6300;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .botao__cadastro {
+        background-color: #FF6300;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .botao__cadastro {
+        background-color: #FF6300;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .botao__cadastro {
+        background-color: #FF6300;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 376px) {
+    .botao__cadastro {
+        background-color: #FF6300;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .botao__cadastro {
+        background-color: #FF6300;
+        color: #FFFFFF;
+        border-radius: 50px;
+        border-width: thin;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: dashed;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 10rem;
+    }
+}
+
+/*Fim - Banner home-page*/
+
+
+/*Instruções-como realizar o cadastro*/
+
+/* 
+.card-body {
+    background-color: #F5F5F5;
+}
+
+.card__body {
+    background-color: #F5F5F5;
+}
+*/
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-family: Montserrat;
+}
+
+/*Font-size* Título instruções*/
+@media (min-width: 375px) {
+    .col-lg-8 {
+        font-size: 14px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-family: Montserrat;
+    }
+}
+
+@media (min-width: 575px) {
+    .col-lg-8 {
+        font-size: 18px;
+        font-family: Montserrat;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-lg-8 {
+        font-size: 22px;
+        font-family: Montserrat;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-8 {
+        font-size: 22px;
+        font-family: Montserrat;
+    }
+    .card__body {
+        padding-top: 8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-8 {
+        font-size: 26px;
+        font-family: Montserrat;
+    }
+}
+
+@media (min-width: 1400px) {
+    .col-lg-8 {
+        font-size: 34px;
+        font-family: Montserrat;
+    }
+}
+
+/*Font-size* Título instruções*/
+
+@media (min-width: 992px) {
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top: 7rem;
+    }
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: #FF6300;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 14px;
+    font-family: Montserrat;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+/*Dimensões da imagens da instruções de cadastro*/
+
+@media (min-width: 992px) {
+    .d-block {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/*Dimensões da imagens da instruções de cadastro*/
+
+/*Fim de instruções-como realizar o cadastro*/
+
+/*Faq-perguntas frequentes*/
+
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    background-color: #F5F5F5;
+    color: #03071E;
+
+}
+
+/*FAQ-ACORDION*/
+.accordion {
+    margin: 2rem;
+    font-family: Montserrat;
+}
+
+@media (max-width: 1200px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .accordion {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 376px) {
+    .accordion {
+        margin: 2rem;
+    }
+}
+
+  .accordion-button.collapsed {
+    border: 1px solid #d8d8d8;
+  }
+
+  .bg {
+    background-color: #03071E !important;
+    color: #FFFFFF;
+  }
+
+/*FAQ-ACORDION*/
+
+
+
+/*Política de jogo responsável */
+
+/*Política de jogo responsável */
+
+
+/*Footer*/
+
+.linkredes {
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+  
+  .rodape {
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+
+  @media (min-width: 376px) {
+    .redessociais {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+  @media (min-width: 576px) {
+    .redessociais {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+  @media (min-width: 992px) {
+    .redessociais {
+        padding-left: 9rem;
+        padding-right: 7rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .redessociais {
+        padding-left: 9rem;
+        padding-right: 9rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .redessociais {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+.suporte {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: Montserrat;
+    text-decoration: none;
+    margin: 1rem;    
+}
+
+  /*Footer*/
+
+/* Topo*/
+
+.top {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.topo {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Topo*/
