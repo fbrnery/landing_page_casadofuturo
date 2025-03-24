@@ -68,20 +68,39 @@ body {
     padding-bottom: 10px;
 }
 
+
 .botao_nav {
     margin: 1rem;
 }
 
 
 .nav_link {
-    color: #d8d8d8;
+    color: #fff;
     font-family: Open Sans,Helvetica,Verdana,Arial,sans-serif;
     text-decoration: none;
-    margin: 2rem;
-    padding-left: 1rem;
+    margin: 1rem;
+    padding-left: 2rem;
     font-size: 18px;
     font-weight: 600;
 }
+
+
+ .tab-nav_link {
+    color: var(--vn-menu-item-color-active);
+    font-weight: var(--vn-menu-item-font-weight-active);
+}
+
+ .nav_link:hover {
+    background-color: #03071E;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+
 
 
 .navbar-toggler-icon {
