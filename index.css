@@ -81,14 +81,9 @@ body {
     margin: 1rem;
     padding-left: 2rem;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
-
- .tab-nav_link {
-    color: var(--vn-menu-item-color-active);
-    font-weight: var(--vn-menu-item-font-weight-active);
-}
 
  .nav_link:hover {
     background-color: #03071E;
@@ -104,11 +99,11 @@ body {
 
 
 .navbar-toggler-icon {
-    background-color: #FF6300;
+    background-color: #e6f3fb;
 }
 
 .navbar-toggler {
-    background-color: #FF6300;
+    background-color: #e6f3fb;
 }
 
 /* Fim - Header-Menu */
@@ -140,6 +135,17 @@ body {
     font-family: Montserrat;
     margin-left: 3rem;
     margin-right: 3rem;
+}
+
+.text_sobre_nos {
+    text-align: justify;
+}
+
+.text_sobre_nos_paragrafo {
+font-size: 18px;
+font-family: monterrat;
+font-weight: 600;
+
 }
 
 @media (max-width: 375px) {
@@ -185,6 +191,12 @@ body {
         padding-right: 0rem;
         font-family: Montserrat;
     }
+}
+
+@media (max-width: 768px) {
+.col-md-12 {
+    margin-top: 9rem;
+}
 }
 
 
@@ -239,7 +251,7 @@ body {
         font-size: 26px;
         font-weight: 800;
         font-family: Montserrat;
-        margin-top: 0rem;
+        margin-top: 2rem;
         margin-bottom: 0rem;
         text-align: center;
         margin-left: 1rem;
@@ -262,10 +274,22 @@ body {
 }
 
 @media (min-width: 1200px) {
-    /*
+
     .col-lg-6 {
         margin-top: 0rem;
-    }*/
+        margin-bottom: 2rem;
+    }
+
+    .display {
+        font-size: 28px;
+        font-weight: 800;
+        font-family: Montserrat;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        }
 }
 
 @media (min-width: 1400px) {
@@ -274,8 +298,8 @@ body {
         font-size: 24px;
         font-weight: 400;
         font-family: Montserrat;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .d-block {
         width: 100%;
@@ -288,10 +312,11 @@ body {
         font-size: 28px;
         font-weight: 800;
         font-family: Montserrat;
-        margin-top: 0rem;
+        margin-top: 2rem;
         margin-bottom: 0rem;
         text-align: center;
-        margin-left: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         }
     
     .botao__cadastro {
@@ -312,12 +337,25 @@ body {
         }
     }
 
+    @media (min-width: 1600px) {
+.texto {
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Montserrat;
+    margin-left: -4rem;
+    margin-right: 1rem;
+}
+    }
+
+ 
+
 /*Dimensões da banner home-page*/
 
 .py-5 {
     padding-top: 9rem !important;
     padding-bottom: 3rem !important;
-    background-color: #F5F7FE;
+    background-color: #e6f3fb;
 }
 
 /*Dimensões da banner home-page*/
