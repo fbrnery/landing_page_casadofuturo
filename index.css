@@ -569,6 +569,8 @@ html { overflow-y: scroll; }
   height: 3rem;
 }
 
+/* Textos institucionais*/
+
 
 /*Faq-perguntas frequentes*/
 
@@ -622,10 +624,6 @@ html { overflow-y: scroll; }
   border: 1px solid #d8d8d8;
 }
 
-.bg {
-  background-color: #03071e !important;
-  color: #ffffff;
-}
 
 /*Texto sobre nós*/
 
@@ -714,6 +712,11 @@ html { overflow-y: scroll; }
   font-family: Montserrat;
   text-decoration: none;
   margin: 1rem;
+}
+
+.bg {
+  background-color: #3B4754;
+  color: #ffffff;
 }
 
 /*Footer*/
